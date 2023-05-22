@@ -9,7 +9,7 @@ nome = input("Digite o nome do paciente: ").upper()
 idade = int(input("Digite a idade do paciente: ")
 
 
-if idade >= 65:
+if idade >= 60:
     print(f"O paciente {nome} possui atendimento prefencial")
 else:
     print(f"O paciente {nome} não possui atendimento prefencial")

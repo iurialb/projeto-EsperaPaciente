@@ -1,7 +1,7 @@
 nome = input("Digite o nome: ")
 idade = int(input("Digite a idade: "))
 doenca_infectocontagiosa = input("Suspeita de doença infecto-contagiosa? ").upper()
-if idade >=65:
+if idade >=60:
     print("Paciente COM prioridade.")
     if doenca_infectocontagiosa=="SIM":
         print("Encaminhe o paciente para a sala AMARELA.")
